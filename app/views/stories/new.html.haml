@@ -1,6 +1,6 @@
 %h1 New Article
 
-= form_for :article do |f|
+= form_for :article, url: stories_path do |f|
 
   %p
     = f.label :title
